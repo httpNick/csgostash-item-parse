@@ -41,7 +41,12 @@ var weapons = [
             {
               if (fileElement.name.includes(name)) {
                 weapons[index].skins.push(
-                  fileElement.name.split(name + " ")[1]
+                  {
+                    skinName: fileElement.name.split(name + " ")[1],
+                    imgNumber: fileElement.url.split(
+                      "http:\/\/csgostash.com\/skin\/")[1]
+                      .match(/\d+/)[0]
+                  }
                 );
               }
             }
