@@ -1,6 +1,6 @@
 {
   "name": "httpnick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple parser to take a resource file intercepted from csgostash.com into a json file that contains all weapon/knife skin pairs. Also includes an image url (some newer ones are broken).",
   "main": "parser.js",
   "scripts": {
