@@ -1,0 +1,27 @@
+{
+  "name": "httpnick",
+  "version": "1.0.0",
+  "description": "Simple parser to take a resource file intercepted from csgostash.com into a json file that contains all weapon/knife skin pairs. Also includes an image url (some newer ones are broken).",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httpNick/csgostash-item-parse.git"
+  },
+  "keywords": [
+    "csgostash",
+    "csgo",
+    "parser",
+    "counter-strike:global",
+    "offensive",
+    "csgomarket"
+  ],
+  "author": "httpNick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/httpNick/csgostash-item-parse/issues"
+  },
+  "homepage": "https://github.com/httpNick/csgostash-item-parse#readme"
+}

@@ -53,9 +53,9 @@ var weapons = [
           )
         }
       );
-      fs.writeFile('test.json', JSON.stringify(weapons), function (err) {
+      fs.writeFile('result.json', JSON.stringify(weapons), function (err) {
         if (err) throw err;
-        console.log('It\'s saved!');
+        console.log('It\'s saved to result.json!');
       });
     });
 })();
